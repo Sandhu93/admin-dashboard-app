@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { ColorModeContex, useMode } from './theme';
+import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
+import Topbar from './scenes/global/Topbar';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
           <div className='app'>
 
             <main className='content'>
+
+              <Topbar />
 
             </main>
 

@@ -8,7 +8,7 @@ import { createTheme } from "@mui/material/styles";
 
 // color design tokens export
 //color design tokens
-//By using Tailwind Shades extension in vs code, we have developed these shades
+//By using Tailwind Shades extension in vs code we have developed these shades
 //To invert the code for the colors in light mode, select the colors, press ctrl + p and hit > and select Sort line descending. 
 //This will invert the list
 //For primary color for light mode, 400 didn't work well, so changed to #f2f0f0 manually
